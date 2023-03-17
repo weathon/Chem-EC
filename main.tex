@@ -1,0 +1,67 @@
+\documentclass[12pt]{article}
+\usepackage[letterpaper, total={6in, 9in}]{geometry}
+\usepackage{graphicx} % Required for inserting images
+\begin{document}
+% Compare and contrast optical vs. mass spectral methods for As quantitation. Which of these can 
+% be used for deducing As speciation (i.e. oxidation state and/or incorporation into other 
+% (bio)molecules).  What  are  the major  sources  of  interference  for  ICP-MS-based  methods  for  As 
+% quantitation and describe two solutions for these issues
+\date{CHEM 311 Extra Credit Assignment}
+\author{Wenqi Guo}
+\title{Optical and Mass Spectral Methods for Arsenic Quantitation and Speciation: A Review} 
+\maketitle
+\section{Introduction}
+Many forms of Arsenic are toxic. $^{1,2}$ Detection of Arsenic is important for monitoring water or soil pollution and the safety of agricultural products. There are a number of methods for quantifying Arsenic in the sample, including optical and mass spectral. Additional techniques could be used to satisfy the speciation 
+\section{Comparsion and Contrast Between Methods}
+\subsection{Optical Spectral Method}
+One way to quantify the arsenic in the sample is by atomic spectral. There are a couple of different ways to do so. Atomic Absorption Spectroscopy (AAS), Atomic Fluorescence Spectroscopy (AFS), Atomic Emission Spectroscopy (AES), and X-Ray Fluorescence (SRF). All these methods use the energy difference between electron orbitals. 
+
+The AAS works by the fact that when an atom is hit by a photon that is the right energy, its electron will "jump" (transition) to a higher energy level. The energy of the photon is absorbed by the atom. Thus, the number of photons (light intensity ) after the light pass through the atom decreases. And the amount of light intensity decreased is related to the concertation of the specific atoms in the sample. The frequency of the light will be related to the atom's spectrum (usually one line source, which is light that ideally only has one frequency photon within the spectrum). 
+
+When applying AAS to the detection of Aresin, we first dissolve the sample into a solution. Then the solution will be loaded into a flame. The flame will vaporize the solvent and break down the molecules of the sample. A line light source will pass through the flame and the intensity of the light before and after the flame will be measured. The frequency of the light source should match the spectrum of Aresin. Using serials of standard solutions with different concertation to build the standard curve and run them through the AAS aside from the sample solution, it is possible to calculate the Aresin concentration in the sample.
+% $$
+% \int_0^{\infty} x dx$$
+
+AES and AFS use very similar principles and setups. In AES, the sample was turned into the atomic phase with the same process as in AAS. However, the heat used in AES is much higher. The energy of the flame excited the electrons in the sample atoms. The excited states are not stable, and the electron will transition back to the ground state after a short amount of time. The electrons lose their energy in this process, and the energy is emitted in the form of photons. Since the photons were emitted by an electron transition, the energy of the photon is also within the atomic spectrum. By measuring the intensity of the light, the concentration of the atom in the sample could be determined. 
+
+AFS also uses the effect that a photon will be emitted when an electron transit from a higher energy state to a lower energy state. However, instead of using heat to excite the electron in the first place, a laser is used.
+
+\subsection{Mass Spectral Method}
+The ICP-MS is a way to detect some specific elements. In extreme heat, molecules break down into atoms. These atoms then got ionized by the heat. The ions are guided to the MS, passing through the ion optics and then to the quadrupole mass analyzer. Since almost all of the ions are atomic ions, we can use the mass charge ratio to match it with the elements in the sample based on the atomic %number
+mass of each element. $^6$ 
+
+\subsection{Compare And Contrast}
+
+\section{Speciation Analysis}
+Different Arsenic compound has a different level of toxicity. Inorganic forms of Arsenic are the most toxic $^2$, while some forms of Arsenic are, in fact, hardly toxic. (e.g. Arsenobetaine) $^1$ $^3$ $^4$ It is also important to distinguish the Arsenic that is embedded into organisms (such as in the DNA or cells) and the Arsenic that is just excited in the organism but is not part of the biological activity. 
+
+One way to do so is by High-Performance Liquid Chromatography Inductively Coupled Plasma Mass Spectrometry (HPLC-ICP-MS). ICP-MS is a very common method for arsenic detection. Its benefits include high ionization efficiency, high selection, and highly sensitive. However, the job of detecting Arsenic in different speciation is done by HPLC. HPLC is able to seperate the arsenic in different speciation based on the retention time. This needs to be done by comparing the retention time of the sample with a standard, i.e. it is not possible to determine the speciation of the region without using reference standards.$^5$  
+
+\section{Interference And Solutions for ICP-MS}
+\subsection{Interferences}
+Although ICP-MS is a relatively advanced technique, there still might be interferences during some analytics.
+There are four major interferences in ICP-MS, isobaric elements, non-single charged ions, polyatomic ions, and tailing interference. $^6$ 
+
+The isobaric effect is that there might be different elements that have isotopes with the same mass. $^6$ Because one element will have the same number of protons in the nuclear, but they might not have the same number of neutrons. Common examples of this are  $^{204}$Hg/$^{204}$Pb and $^{115}$Sn/$^{204}$In.
+
+The non-single charged ions effect is that although most of the time, ICP will generate ions with charge numbers of one, it is possible that some 2+ ions will be generated. This will be a problem because, for MS, we are detecting the mass-to-charge ratio. In most cases, the charge is 1, so the mass-to-charge ratio could be seen as the mass number. However, if there are 2+ ions in the plasma, they cannot be distinguished from ions that are half the mass. The most common example of this is the interference between Se$^+$ and Gd$^{2+}$. However, this is not usually a problem in biological analysis because Gd is usually not presented in organisms. $^6$
+
+Polyatomic interference is the most problematic one. It happens when the ions that reach the MS are not completely ionized or are re-combined again. $^6$ 
+\subsection{Solutions} 
+
+% \vspace{30}
+
+\section{Refrences}
+\noindent 1. B’Hymer, C. \& Caruso, J. A. Arsenic and its speciation analysis using high-performance liquid chromatography and inductively coupled plasma mass spectrometry. Journal of Chromatography A 1045, 1–13 (2004).
+
+\noindent 2. B’Hymer, C. \& Caruso, J. A. Arsenic and its speciation analysis using high-performance liquid chromatography and inductively coupled plasma mass spectrometry. Journal of Chromatography A 1045, 1–13 (2004).
+
+\noindent 3. Hippe, P. W. Environ analysis of linear compartmental systems: The dynamic, time-invariant case. Ecological Modelling 19, 1–26 (1983).
+
+\noindent 4. Contents, Vol. 34, 1984. Hum Hered 34, I–VI (1984).
+
+\noindent 5. Reid, M. S. et al. Arsenic speciation analysis: A review with an emphasis on chromatographic separations. TrAC Trends in Analytical Chemistry 123, 115770 (2020).
+
+\noindent 6. Wilschefski SC, Baxter MR. Inductively Coupled Plasma Mass Spectrometry: Introduction to Analytical Aspects. Clin Biochem Rev. 2019;40(3):115-133. doi:10.33176/AACB-19-00024
+
+\end{document}
